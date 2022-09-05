@@ -571,10 +571,6 @@ video {
   margin-top: 5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -583,20 +579,8 @@ video {
   display: none;
 }
 
-.h-\[30rem\] {
-  height: 30rem;
-}
-
-.h-\[20rem\] {
-  height: 20rem;
-}
-
-.h-\[22rem\] {
-  height: 22rem;
-}
-
-.h-\[23rem\] {
-  height: 23rem;
+.h-\[1000px\] {
+  height: 1000px;
 }
 
 .h-\[22\.5rem\] {
@@ -615,23 +599,12 @@ video {
   width: 100%;
 }
 
-.translate-x-2 {
-  --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-2 {
-  --tw-translate-y: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-screen {
+  width: 100vw;
 }
 
 .translate-y-16 {
   --tw-translate-y: 4rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-14 {
-  --tw-translate-y: 3.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -655,28 +628,20 @@ video {
   justify-content: space-between;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-9 {
   gap: 2.25rem;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
+.gap-12 {
+  gap: 3rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .bg-fm-white {
@@ -689,26 +654,32 @@ video {
   background-color: hsl(51 100% 49% / var(--tw-bg-opacity));
 }
 
-.p-6 {
-  padding: 1.5rem;
+.bg-hero-sm {
+  background-image: url('./src/assets/mobile/image-header.jpg');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-7 {
   padding: 1.75rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-4 {
@@ -721,12 +692,27 @@ video {
   padding-right: 2rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-serif {
   font-family: Fraunces, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-lg {
@@ -736,11 +722,6 @@ video {
 
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-light {
@@ -755,9 +736,9 @@ video {
   letter-spacing: 0.1em;
 }
 
-.text-fm-white {
+.text-fm-very-dark-gray-blue {
   --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
+  color: hsl(213 9% 39% / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -765,9 +746,9 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-fm-very-dark-gray-blue {
+.text-fm-white {
   --tw-text-opacity: 1;
-  color: hsl(213 9% 39% / var(--tw-text-opacity));
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -801,6 +782,14 @@ video {
   .sm\:hidden {
     display: none;
   }
+
+  .sm\:h-\[1600px\] {
+    height: 1600px;
+  }
+
+  .sm\:bg-hero-lg {
+    background-image: url('./src/assets/desktop/image-header.jpg');
+  }
 }
 
 @media (min-width: 768px) {
@@ -808,8 +797,12 @@ video {
     margin-top: 7rem;
   }
 
-  .md\:hidden {
-    display: none;
+  .md\:h-\[1600px\] {
+    height: 1600px;
+  }
+
+  .md\:bg-hero-lg {
+    background-image: url('./src/assets/desktop/image-header.jpg');
   }
 
   .md\:text-\[3\.2rem\] {

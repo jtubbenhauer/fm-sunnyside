@@ -19,6 +19,10 @@ module.exports = {
         'fm-very-dark-gray-blue': 'hsl(213, 9%, 39%)',
         'fm-grayish-blue': 'hsl(210, 4%, 67%)',
         'fm-white': 'hsl(0, 0%, 100%)'
+      },
+      backgroundImage: {
+        'hero-sm': "url('./src/assets/mobile/image-header.jpg')",
+        'hero-lg': "url('./src/assets/desktop/image-header.jpg')",
       }
     },
   },
