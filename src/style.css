@@ -559,6 +559,10 @@ video {
   position: relative;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -577,10 +581,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
 }
 
 .h-\[22\.5rem\] {
@@ -662,16 +662,8 @@ video {
   background-size: contain;
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-top {
   background-position: top;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-no-repeat {
@@ -722,6 +714,11 @@ video {
 
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-light {
@@ -797,12 +794,12 @@ video {
     margin-top: 7rem;
   }
 
-  .md\:h-\[1600px\] {
-    height: 1600px;
+  .md\:block {
+    display: block;
   }
 
-  .md\:bg-hero-lg {
-    background-image: url('./src/assets/desktop/image-header.jpg');
+  .md\:hidden {
+    display: none;
   }
 
   .md\:text-\[3\.2rem\] {

@@ -8,16 +8,10 @@
 </head>
 <body>
 
-<div class="relative">
-  <!--  Header images-->
-  <div class="md:hidden">
-    <img class="w-screen" src="./src/assets/mobile/image-header.jpg" alt="">
-  </div>
-  <div class="hidden md:block">
-    <img class="w-screen" src="./src/assets/desktop/image-header.jpg" alt="">
-  </div>
+<div
+  class="relative bg-hero-sm sm:bg-hero-lg bg-no-repeat bg-contain  bg-top sm:h-[1600px]">
   <!--  Mobile menu-->
-  <div id="mobile-menu" class="sm:hidden hidden z-50 absolute top-0 w-[100vw] p-7 mt-12 ">
+  <div id="mobile-menu" class="sm:hidden hidden z-50 absolute  w-[100vw] p-7 mt-12 ">
     <div id="mobile-menu-cont" class="opacity-0 bg-fm-white h-[22.5rem] mobile-menu-clip transition-all">
       <div class="flex flex-col items-center justify-center translate-y-16 text-fm-very-dark-gray-blue gap-9 text-xl">
         <a href="#">About</a><a href="#">Services</a><a href="#">Projects</a>
@@ -25,8 +19,7 @@
       </div>
     </div>
   </div>
-  <!--  Navbar -->
-  <div class="absolute w-full top-0">
+  <div class="absolute w-full">
     <div class="flex p-7 items-center justify-between">
       <!--      Logo-->
       <img src="./src/assets/logo.svg" alt="">
@@ -51,7 +44,6 @@
     </div>
   </div>
 </div>
-
 <div>hehehe</div>
 
 <script src="./src/scripts.js"></script>
