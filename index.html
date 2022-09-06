@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vite + TS</title>
 </head>
-<body>
+<body class="text-[18px]">
 
+<!--Hero section-->
 <div class="relative">
   <!--  Header images-->
   <div class="md:hidden">
@@ -51,8 +52,46 @@
     </div>
   </div>
 </div>
-
-<div>hehehe</div>
+<!--Section 1-->
+<div class="grid grid-cols-1 md:grid-cols-2 auto-cols-max">
+  <div class="md:order-last">
+    <img src="./src/assets/desktop/image-transform.jpg" alt="">
+  </div>
+  <div
+    class="flex flex-col items-center md:items-start justify-center text-center md:text-left min-h-[312px] max-w-[480px] gap-8 px-[1rem] max-w-md mx-auto py-12 md:py-6">
+    <h2 class="font-serif text-4xl text-fm-very-dark-blue">Transform your brand</h2>
+    <p class="text-fm-very-dark-gray-blue">We are a full-service creative agency specializing in helping brands grow
+      fast. Engage your
+      clients through
+      compelling visuals that do most of the marketing for you.</p>
+    <span class="relative group">
+      <span
+        class="absolute block bg-fm-yellow h-[10px] w-[135px] -translate-x-1.5 transition-all opacity-40 group-hover:opacity-100 bottom-0"></span>
+      <button class="relative font-serif text-fm-very-dark-blue ">
+        LEARN MORE
+      </button>
+    </span>
+  </div>
+</div>
+<!--Section 2-->
+<div class="grid grid-cols-1 md:grid-cols-2 auto-cols-max">
+  <div>
+    <img src="./src/assets/desktop/image-stand-out.jpg" alt="">
+  </div>
+  <div
+    class="flex flex-col items-center md:items-start justify-center text-center md:text-left min-h-[312px] max-w-[480px] gap-8 px-[1.5rem] max-w-md mx-auto py-12 md:py-6">
+    <h2 class="font-serif text-4xl text-fm-very-dark-blue">Stand out to the right audience</h2>
+    <p class="text-fm-very-dark-gray-blue">Using a collaborative formula of designers, researchers, photographers,
+      videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+    <span class="relative group">
+      <span
+        class="absolute block bg-fm-soft-red h-[10px] w-[135px] -translate-x-1.5 transition-all opacity-40 group-hover:opacity-100 bottom-0"></span>
+      <button class="relative font-serif text-fm-very-dark-blue ">
+        LEARN MORE
+      </button>
+    </span>
+  </div>
+</div>
 
 <script src="./src/scripts.js"></script>
 <script type="module" src="/src/main.ts"></script>
