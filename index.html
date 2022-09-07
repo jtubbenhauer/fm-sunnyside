@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <link rel="icon" type="image/svg+xml" href="./src/assets/favicon-32x32.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="build.css">
+  <script src="scripts.js"></script>
   <title>Frontend Mentor Sunnyside Agency | Jack Tubbenhauer</title>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+  </style>
 </head>
 <body class="text-[18px]">
 
@@ -12,10 +17,10 @@
 <div class="relative">
   <!--  Header images-->
   <div class="md:hidden">
-    <img class="w-screen" src="./src/assets/mobile/image-header.jpg" alt="Sunnyside agency orange slice">
+    <img class="w-screen" src="assets/mobile/image-header.jpg" alt="Sunnyside agency orange slice">
   </div>
   <div class="hidden md:block">
-    <img class="w-screen" src="./src/assets/desktop/image-header.jpg" alt="Sunnyside agency orange slice">
+    <img class="w-screen" src="assets/desktop/image-header.jpg" alt="Sunnyside agency orange slice">
   </div>
   <!--  Mobile menu-->
   <div id="mobile-menu" class="sm:hidden hidden z-50 absolute top-0 w-[100vw] p-7 mt-12 ">
@@ -35,10 +40,10 @@
   <div class="absolute w-full top-0">
     <div class="flex p-7 items-center justify-between">
       <!--      Logo-->
-      <img src="./src/assets/logo.svg" alt="Sunnyside logo">
+      <img src="assets/logo.svg" alt="Sunnyside logo">
       <!--      Hamburger-->
       <button class="sm:hidden cursor-pointer" onclick="handleMenuToggle()">
-        <img src="./src/assets/icon-hamburger.svg" alt="Hamburger menu icon">
+        <img src="assets/icon-hamburger.svg" alt="Hamburger menu icon">
       </button>
       <!--      Desktop menu-->
       <div class="hidden sm:flex gap-12 text-lg text-fm-white font-light items-center">
@@ -56,14 +61,14 @@
       <h1 class="text-[2.5rem] md:text-[3.2rem] leading-10 tracking-widest font-serif text-fm-white text-center">WE
         ARE
         CREATIVES</h1>
-      <img src="./src/assets/icon-arrow-down.svg" class="mt-12 md:mt-28 max-h-28" alt="Arrow pointing down">
+      <img src="assets/icon-arrow-down.svg" class="mt-12 md:mt-28 max-h-28" alt="Arrow pointing down">
     </div>
   </div>
 </div>
 <!--Section 1-->
 <div class="grid grid-cols-1 md:grid-cols-2 auto-cols-max">
   <div class="md:order-last">
-    <img class="w-full" src="./src/assets/desktop/image-transform.jpg" alt="Egg on yellow background">
+    <img class="w-full" src="assets/desktop/image-transform.jpg" alt="Egg on yellow background">
   </div>
   <div
     class="flex flex-col items-center md:items-start justify-center text-center md:text-left min-h-[312px] max-w-[480px] gap-8 px-[1rem] max-w-md mx-auto py-12 md:py-6">
@@ -84,7 +89,7 @@
 <!--Section 2-->
 <div class="grid grid-cols-1 md:grid-cols-2 auto-cols-max">
   <div>
-    <img class="w-full" src="./src/assets/desktop/image-stand-out.jpg" alt="Pink beverage">
+    <img class="w-full" src="assets/desktop/image-stand-out.jpg" alt="Pink beverage">
   </div>
   <div
     class="flex flex-col items-center md:items-start justify-center text-center md:text-left min-h-[312px] max-w-[480px] gap-8 px-[1.5rem] max-w-md mx-auto py-12 md:py-6">
@@ -106,10 +111,10 @@
   <!--    Cherry section  -->
   <div class="relative">
     <div class="md:hidden">
-      <img class="w-full" src="./src/assets/mobile/image-graphic-design.jpg" alt="Cherries on green background">
+      <img class="w-full" src="assets/mobile/image-graphic-design.jpg" alt="Cherries on green background">
     </div>
     <div class="hidden md:block">
-      <img class="w-full" src="./src/assets/desktop/image-graphic-design.jpg" alt="Cherries on green background">
+      <img class="w-full" src="assets/desktop/image-graphic-design.jpg" alt="Cherries on green background">
     </div>
     <div class="absolute bottom-0 w-full">
       <div class="flex flex-col items-center justify-center text-center px-5 gap-6 mb-12">
@@ -125,10 +130,10 @@
   <!--  Orange section-->
   <div class="relative">
     <div class="md:hidden">
-      <img class="w-full" src="./src/assets/mobile/image-photography.jpg" alt="Orange fruit on blue background">
+      <img class="w-full" src="assets/mobile/image-photography.jpg" alt="Orange fruit on blue background">
     </div>
     <div class="hidden md:block">
-      <img class="w-full" src="./src/assets/desktop/image-photography.jpg" alt="Orange fruit on blue background">
+      <img class="w-full" src="assets/desktop/image-photography.jpg" alt="Orange fruit on blue background">
     </div>
     <div class="absolute bottom-0 w-full">
       <div class="flex flex-col items-center justify-center text-center px-5 gap-6 mb-12">
@@ -146,7 +151,7 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-[3.5rem] md:gap-0">
     <div>
       <div class="flex flex-col items-center justify-center text-center gap-8 px-6">
-        <img class="rounded-full" width=70 src="./src/assets/image-emily.jpg" alt="Client portrait">
+        <img class="rounded-full" width=70 src="assets/image-emily.jpg" alt="Client portrait">
         <p class="text-fm-very-dark-gray-blue max-w-[380px]">We put our trust in Sunnyside and they delivered, making
           sure our needs
           wer met and deadlines were always
@@ -159,7 +164,7 @@
     </div>
     <div>
       <div class="flex flex-col items-center justify-center text-center gap-8 px-6">
-        <img class="rounded-full" width=70 src="./src/assets/image-thomas.jpg" alt="Client portrait">
+        <img class="rounded-full" width=70 src="assets/image-thomas.jpg" alt="Client portrait">
         <p class="text-fm-very-dark-gray-blue max-w-[380px]">Sunnyside's enthusiasm coupled with their keen interest in
           our brand's
           success made it a satisfying and enjoyable experience.</p>
@@ -171,7 +176,7 @@
     </div>
     <div>
       <div class="flex flex-col items-center justify-center text-center gap-8 px-6">
-        <img class="rounded-full" width=70 src="./src/assets/image-jennie.jpg" alt="Client portrait">
+        <img class="rounded-full" width=70 src="assets/image-jennie.jpg" alt="Client portrait">
         <p class="text-fm-very-dark-gray-blue max-w-[380px]">Incredible end result! Our sales increased over 400% when
           we worked with
           Sunnyside. Highly recommended!</p>
@@ -185,21 +190,21 @@
 </div>
 <!--Mobile image grid-->
 <div class="grid grid-cols-2 md:hidden">
-  <img class="w-full" src="./src/assets/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles">
-  <img class="w-full" src="./src/assets/mobile/image-gallery-orange.jpg" alt="Orange slice">
-  <img class="w-full" src="./src/assets/mobile/image-gallery-cone.jpg" alt="Wafer cone">
-  <img class="w-full" src="./src/assets/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cubes">
+  <img class="w-full" src="assets/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles">
+  <img class="w-full" src="assets/mobile/image-gallery-orange.jpg" alt="Orange slice">
+  <img class="w-full" src="assets/mobile/image-gallery-cone.jpg" alt="Wafer cone">
+  <img class="w-full" src="assets/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cubes">
 </div>
 <!--Desktop image grid-->
 <div class="hidden md:flex">
-  <img class="w-full" src="./src/assets/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles">
-  <img class="w-full" src="./src/assets/desktop/image-gallery-orange.jpg" alt="Orange slice">
-  <img class="w-full" src="./src/assets/desktop/image-gallery-cone.jpg" alt="Wafer cone">
-  <img class="w-full" src="./src/assets/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes">
+  <img class="w-full" src="assets/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles">
+  <img class="w-full" src="assets/desktop/image-gallery-orange.jpg" alt="Orange slice">
+  <img class="w-full" src="assets/desktop/image-gallery-cone.jpg" alt="Wafer cone">
+  <img class="w-full" src="assets/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes">
 </div>
 <!--Footer-->
 <div class="flex flex-col gap-8 items-center justify-center bg-[#90D4C5] py-12">
-  <img src="./src/assets/logo-footer.svg" alt="">
+  <img src="assets/logo-footer.svg" alt="">
   <div class="flex items-center justify-center gap-[3.5rem] text-fm-desat-cyan opacity-80">
     <a class="hover:text-fm-white transition-all" href="#">About</a>
     <a class="hover:text-fm-white transition-all" href="#">Services</a>
@@ -231,7 +236,6 @@
   <a class="text-fm-desat-cyan underline text-sm -mt-12 hover:text-fm-white transition-all" href="https://tubbs.dev">Jack
     Tubbenhauer</a>
 </div>
-<script type="module" src="./src/scripts.js"></script>
-<script type="module" src="./src/main.ts"></script>
+
 </body>
 </html>
