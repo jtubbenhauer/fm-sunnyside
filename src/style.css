@@ -604,6 +604,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.-mt-12 {
+  margin-top: -3rem;
+}
+
 .block {
   display: block;
 }
@@ -670,6 +674,10 @@ video {
 
 .max-w-\[380px\] {
   max-width: 380px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .grow {
@@ -783,6 +791,16 @@ video {
   background-color: hsl(7 99% 70% / var(--tw-bg-opacity));
 }
 
+.bg-fm-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
+}
+
+.bg-\[\#90D4C5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(144 212 197 / var(--tw-bg-opacity));
+}
+
 .bg-hero-sm {
   background-image: url('./src/assets/mobile/image-header.jpg');
 }
@@ -797,6 +815,14 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.fill-fm-white {
+  fill: hsl(0, 0%, 100%);
+}
+
+.fill-\[\#2C7566\] {
+  fill: #2C7566;
 }
 
 .p-7 {
@@ -851,6 +877,11 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -964,6 +995,11 @@ video {
   color: hsl(210 4% 67% / var(--tw-text-opacity));
 }
 
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -976,6 +1012,18 @@ video {
   opacity: 1;
 }
 
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -985,6 +1033,46 @@ video {
 .mobile-menu-clip {
   -webkit-clip-path: polygon(92% 6%, 100% 0, 100% 100%, 0 100%, 0 6%);
           clip-path: polygon(92% 6%, 100% 0, 100% 100%, 0 100%, 0 6%);
+}
+
+.hover\:bg-fm-white\/30:hover {
+  background-color: hsl(0 0% 100% / 0.3);
+}
+
+.hover\:bg-fm-yellow\/30:hover {
+  background-color: hsl(51 100% 49% / 0.3);
+}
+
+.hover\:fill-fm-white:hover {
+  fill: hsl(0, 0%, 100%);
+}
+
+.hover\:text-fm-white:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.hover\:text-fm-desat-cyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(167 40% 24% / var(--tw-text-opacity));
+}
+
+.hover\:text-fm-very-dark-blue:hover {
+  --tw-text-opacity: 1;
+  color: hsl(212 27% 19% / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:opacity-60:hover {
+  opacity: 0.6;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 .group:hover .group-hover\:opacity-100 {
