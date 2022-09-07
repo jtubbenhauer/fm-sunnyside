@@ -588,6 +588,22 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-\[3rem\] {
+  margin-bottom: 3rem;
+}
+
+.mb-\[4rem\] {
+  margin-bottom: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -652,6 +668,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-\[380px\] {
+  max-width: 380px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -714,6 +734,26 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
+}
+
+.gap-\[8rem\] {
+  gap: 8rem;
+}
+
+.gap-\[6rem\] {
+  gap: 6rem;
+}
+
+.gap-\[4rem\] {
+  gap: 4rem;
+}
+
+.gap-\[3\.5rem\] {
+  gap: 3.5rem;
 }
 
 .rounded-full {
@@ -874,6 +914,22 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-\[2rem\] {
+  letter-spacing: 2rem;
+}
+
+.tracking-\[15px\] {
+  letter-spacing: 15px;
+}
+
+.tracking-\[5px\] {
+  letter-spacing: 5px;
+}
+
+.tracking-\[4px\] {
+  letter-spacing: 4px;
+}
+
 .text-fm-very-dark-gray-blue {
   --tw-text-opacity: 1;
   color: hsl(213 9% 39% / var(--tw-text-opacity));
@@ -978,6 +1034,10 @@ video {
     align-items: flex-start;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -988,11 +1048,21 @@ video {
     padding-right: 0px;
   }
 
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
 
   .md\:text-\[3\.2rem\] {
     font-size: 3.2rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
