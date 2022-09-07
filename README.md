@@ -12,9 +12,8 @@ Install dependencies
 npm install
 ```
 
-Run scripts
+Run script
 
 ```
-npm run tailwind
 npm run dev
 ```
